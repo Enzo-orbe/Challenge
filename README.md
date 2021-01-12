@@ -47,11 +47,11 @@ I used [postman](https://www.postman.com/ "postman") for routes testing.
 
 The routes created for the jwt are test only, are not stored in the DB, and dont have models.
 
-**Generar el Jwt**:
+**Generate Jwt**:
 
 **post** `/auth` One should send in the body object, an **id, name, email, password**, and then copy the response token.
 
-**Prueba del Token**:
+**Testing Token**:
 
 **post** `/auth/test` To test the token one should go to the Headers section of the postman, set as key Authorization and set value Bearer "token", as shown in the following example:
 [![Jwt Test](https://i.ibb.co/PgpcBSd/Captura-de-pantalla-de-2021-01-12-09-06-29.png "Jwt Test")](https://i.ibb.co/PgpcBSd/Captura-de-pantalla-de-2021-01-12-09-06-29.png "Jwt Test")
