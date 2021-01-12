@@ -11,6 +11,8 @@
 
   > SECRET_WORD=supersecretword
 
+- Run _npm start_ to to initialize the app
+
 ### Routes:
 
 I used [postman](https://www.postman.com/ "postman") for routes testing.
